@@ -3138,7 +3138,7 @@ public void onbTableDateCombined() {
 
 							 test.log(LogStatus.PASS, "Snapshot below: " + test.addScreenCapture(screenShotPath));
 						  
-						  test.log(LogStatus.INFO, "Admin Sucessfully Login to User Account in IP-Admin");
+						  test.log(LogStatus.INFO, "Admin Sucessfully Login to User Account in IP-Admin Page");
 					  
 					  driver.findElement(By.xpath("//table[@id='autoLoginBox']/a/b[1]")).click();
 					  
