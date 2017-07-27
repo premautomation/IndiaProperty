@@ -206,7 +206,7 @@ public class GenericWrappers2 extends ProjectWrapper implements Wrappers3 {
 			logger=report.startTest("VerifyBrowserLaunch");*/
 		//test=extent.startTest("Browser Launch", "Test for Launch the Browser");
 			//extent.startTest("Browser Launch", "Test for Browser");
-			//extent.config();
+			//extent.config();test
 		
 		 
 			System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
@@ -248,7 +248,7 @@ public class GenericWrappers2 extends ProjectWrapper implements Wrappers3 {
 			
 			
 			if(homePageTitle.contains("Search Properties")){
-			test.log(LogStatus.PASS, "Check whether user navigated to the Home Page", "User sucessfully land to the Home Page");
+			test.log(LogStatus.PASS, "Check whether user navigated to the Home Page", "User sucessfully land to the IP Home Page");
 			
 			
 			String screenShotPath =Capturescreeshots.capture(driver,"HomePage-Pass");
